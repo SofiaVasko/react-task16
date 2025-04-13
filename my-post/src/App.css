@@ -1,0 +1,61 @@
+.App {
+  background-color: rgb(39, 52, 69);
+  width: 600px;
+  height: 550px;
+  border-radius: 4%;
+  text-align: center;
+}
+
+.Post-avatar {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.Post-content {
+  font-size: 1.2em;
+}
+
+.Post-photo {
+  width: 500px;
+  border: 1em solid rgb(8, 3, 27);
+  margin-bottom: 25px;
+}
+
+.Post-icons,
+.Post-comment,
+.Post-like,
+.Post-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Post-row {
+  justify-content: flex-start;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.Post-icons {
+  justify-content: space-evenly;
+}
+
+@media (max-width: 600px) {
+  .App {
+    width: 400px;
+    height: 470px;
+  }
+  .Post-photo {
+    width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .App {
+    width: 299px;
+  }
+  .Post-photo {
+    width: 250px;
+  }
+}
