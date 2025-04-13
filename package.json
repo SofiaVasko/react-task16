@@ -1,6 +1,6 @@
 {
-  "homepage": "https://sofiavasko.github.io/react-task16/my-post/",
-  "name": "my-post",
+  "homepage": "http://sofiavasko.github.io/react-task16",
+  "name": "react-task16",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
